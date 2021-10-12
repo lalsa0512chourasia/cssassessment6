@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 44%;
+    height: 100vh;
+    background-image: url(./images6/shara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    top: -24px;
+    left: 127%;
+}
+.menu{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+}
+button{
+    border-radius: 40px;
+    border: 1px;
+    background-color: white;
+    width: 35%;
+    height: 51px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+h1{
+    font-size: 65px;
+}
+.horse{
+    color: white;
+    position: relative;
+    top: -82px;
+    left: 80px;
+}
+
+.sahara{
+  color: white;
+  position: absolute;
+    top: 30%;
+    left: 80px
+}
+.container{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.pic{
+    color: white;
+    height: 290px;
+    width: 260px;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px 20px 0px 20px;
+}
+.pic1{
+   background-image: url(./images6/pic-1.png);
+   background-repeat: no-repeat;
+   position: relative;
+   top: 20px;
+   right: 40px;
+}
+.pic2{
+    background-image: url(./images6/pic-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 90%;
+}
+.pic3{
+    background-image: url(./images6/pic-3.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+.pic4{
+    background-image: url(./images6/pic-4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 370px;
+    left: 90%;
+}
+.pic:hover{
+    top: 1px;
+}
+.pic4:hover{
+    top: 332px;
+}
+
+@media screen and (max-width: 856px){
+    body{
+        background-repeat: repeat;
+        background-size: auto;
+    }  
+    .navbar{
+        left: 40%;
+    }
+    .nav{
+        margin: 30px;
+    }
+    .menu{
+        position: relative;
+        top: 52px;
+        left: 20px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .horse{
+        top: -150px;
+        left: 40px;
+    }
+    .sahara{
+        top: 20%;
+        left: 52px
+      }
+    .container{
+        top: 370px;
+        left: 20%;
+    }
+    .pic{
+        height: 230px;
+        width: 410px;
+    }
+    .pic1{
+        top: 20px;
+        right: 40px;
+     }
+     .pic2{
+        top: 284px;
+        left: -8%;
+    }
+    .pic3{
+        top: 280px;
+        right: 40px;
+    }
+    .pic4{
+        top: 810px;
+        left: -8%;
+    }
+}
